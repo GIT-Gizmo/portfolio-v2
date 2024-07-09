@@ -85,7 +85,7 @@ export const projects = [
     title: "AI Stitches - 3D Shirt Editing App",
     description: "Design your dream T-shirt with AI Stitches! This web app lets you unleash your creativity with a fully customizable 3D T-shirt model. Upload your own logos and textures, or get inspired with AI-generated designs.",
     img: "/ai-stitches.webp",
-    iconLists: ["/re.svg", "/tail.svg", "/three.svg", "/skills-icon/bard.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/three.svg", "/skills-icon/bard.svg", "/skills-icon/vite.svg"],
     link: "https://ai-stitches.vercel.app",
     code: 'https://github.com/GIT-Gizmo/ai-stitches'
   },
@@ -112,7 +112,7 @@ export const projects = [
     title: "Home Seekr - A Real Estate Website",
     description: "This project served as a learning experience for building CRUD web applications with user sign-in & sign-up authentication. Developed with React and Firebase, it showcases my ability to create interactive data-driven applications with secure user access.",
     img: "/home-seekr.webp",
-    iconLists: ["/re.svg", "/tail.svg", "/skills-icon/firebase.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/skills-icon/firebase.svg", "/skills-icon/vite.svg"],
     link: "https://home-seekr.vercel.app/sign-in",
     code: 'https://github.com/GIT-Gizmo/home-seekr'
   },
@@ -121,7 +121,7 @@ export const projects = [
     title: "Wings Trip - A Flight Booking Agency Landing Page",
     description: "I explored building interactive elements using React to create a captivating landing page. The project served as a playground to solidify my understanding of Sass for styling and component management.",
     img: "/wingstrip.webp",
-    iconLists: ["/re.svg", "/skills-icon/scss.svg"],
+    iconLists: ["/re.svg", "/skills-icon/scss.svg", "/skills-icon/vite.svg"],
     link: "https://wingstrip.vercel.app",
     code: 'https://github.com/GIT-Gizmo/Wings-Trip'
   },

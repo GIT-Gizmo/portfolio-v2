@@ -112,7 +112,7 @@ export const projects = [
     title: "Home Seekr - A Real Estate Website",
     description: "This project served as a learning experience for building CRUD web applications with user sign-in & sign-up authentication. Developed with React and Firebase, it showcases my ability to create interactive data-driven applications with secure user access.",
     img: "/home-seekr.webp",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/skills-icon/firebase.svg"],
     link: "https://home-seekr.vercel.app/sign-in",
     code: 'https://github.com/GIT-Gizmo/home-seekr'
   },
@@ -121,7 +121,7 @@ export const projects = [
     title: "Wings Trip - A Flight Booking Agency Landing Page",
     description: "I explored building interactive elements using React to create a captivating landing page. The project served as a playground to solidify my understanding of Sass for styling and component management.",
     img: "/wingstrip.webp",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/re.svg", "/skills-icon/scss.svg"],
     link: "https://wingstrip.vercel.app",
     code: 'https://github.com/GIT-Gizmo/Wings-Trip'
   },
@@ -130,7 +130,7 @@ export const projects = [
     title: "Ehazypay - A Cryptocurrency Vendor Landing Page",
     description: "This contract project involved building and managing a user-friendly single-page website for a trusted cryptocurrency vendor. The website simplifies the process for customers to directly buy and sell cryptocurrencies, enhancing their experience and accessibility.",
     img: "/ehazypay.webp",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/skills-icon/html5.svg", "/skills-icon/css.svg", "/skills-icon/jquery.svg"],
     link: "https://ehazypay.vercel.app",
     code: 'https://github.com/GIT-Gizmo/ehazypay'
   },
@@ -139,7 +139,7 @@ export const projects = [
     title: "Little Lemon - A Restaurant Website",
     description: "This capstone project for the META Frontend Developer Specialization (Coursera) challenged me to build a full-fledged restaurant web app where customers can reserve tables, showcasing my skills in React, user interface design, and front-end development best practices.",
     img: "/little-lemon.webp",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/re.svg", "/tail.svg"],
     link: "https://little-lemon-portfolio.vercel.app/",
     code: 'https://github.com/GIT-Gizmo/little-lemon-portfolio'
   },
@@ -148,7 +148,7 @@ export const projects = [
     title: "Honeybiis - A Restaurant Landing Page",
     description: "Landing my first freelance gig, I created a visually compelling landing page for an online restaurant. This project allowed me to collaborate with a client and translate their vision into a design that drives customer engagement.",
     img: "/honeybiis.webp",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/skills-icon/html5.svg", "/scss.svg"],
     link: "https://honeybiis.vercel.app/",
     code: 'https://github.com/GIT-Gizmo/honeybiis'
   },
@@ -157,7 +157,7 @@ export const projects = [
     title: "Glamour Threads - A Clothe Store Landing Page",
     description: "Demonstrating my newfound skills in SASS/SCSS, I created a stylish and functional landing page template tailored for online clothing stores. The project emphasizes clear product presentation and navigation to enhance the user experience.",
     img: "/glamour-threads.webp",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/skills-icon/html5.svg", "/scss.svg"],
     link: "https://glamour-threads.vercel.app/",
     code: 'https://github.com/GIT-Gizmo/glamour-threads'
   },

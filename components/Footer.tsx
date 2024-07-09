@@ -9,7 +9,7 @@ import Image from 'next/image'
 const Footer = () => {
     return (
         <footer className="w-full pt-20 pb-10" id="contact">
-            <div className="w-full absolute left-0 bottom-60 min-h-96 flex justify-center">
+            <div className="w-full absolute left-0 bottom-20 min-h-96 flex justify-center">
                 <Image
                     src="/footer-grid.svg"
                     alt="background grid"

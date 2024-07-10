@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="h-screen pt-36">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -26,7 +26,7 @@ const Hero = () => {
 
       <div className="flex justify-center items-center relative my-12 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <a href="https://twitter.com/dave_gizmo" target="_blank" className="tracking-widest text-xs text-center text-blue-100 max-w-80 w-full relative  mb-10 md:mb-20 lg:mb-0 inline-flex overflow-hidden rounded-full p-[1px] focus:outline-none">
+          <a href="https://github.com/git-gizmo" target="_blank" className="tracking-widest text-xs text-center text-blue-100 max-w-80 w-full relative  mb-10 md:mb-20 lg:mb-0 inline-flex overflow-hidden rounded-full p-[1px] focus:outline-none">
             <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
             <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg px-2 bg-black-200 text-sm font-medium text-slate-300 backdrop-blur-3xl gap-2">
               <p>Dive into my code Jungle</p>
@@ -36,7 +36,7 @@ const Hero = () => {
 
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Your Vision, My Keyboard, Let's Make Some Magic"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Greetings, earthlings! I&apos;m Boluwatife, a code-juggling Full-stack Developer from Nigeria.</p>

@@ -54,7 +54,7 @@ const Projects = () => {
                     fill
                     style={{
                       objectFit: 'contain',
-                      objectPosition: 'bottom'
+                      objectPosition: 'center'
                     }}
                     className="z-10"
                   />

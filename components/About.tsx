@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const About = () => {
     return (
-        <div className="flex flex-col overflow-hidden">
+        <div id="#about" className="py-20 flex flex-col overflow-hidden">
             <ContainerScroll
                 titleComponent={
                     <>
@@ -15,9 +15,18 @@ const About = () => {
                     </>
                 }
             >
-                <div>
-                    <p>Hello!, I&apos;m Boluwatife David. A Full-Stack Engineer with a unique journey transitioning to software development. My background in demography fueled my analytical skills, which I now combine with expertise in React, Next.js, Node.js, and PHP to create cool web apps and robust systems.</p><p>Self-driven learning landed me my first freelance gig within 11 months, followed by internship role at Swap Space and contract role Adroit Handyman Services. At Adroit, I revamped the entire website which boosted server response time by 65% and user engagement by 20% and I&apos;m constantly pushing boundaries with innovative solutions.</p><p>Beyond coding, I&apos;m fascinated by Web 3&#46;0&apos;s potential to improve user privacy and personalize experiences. Let&apos;s explore how I can bring your vision to life!</p>
-                </div>
+                <article>
+                    <h2 className="text-lg sm:text-2xl font-bold text-[#E4003A]">Who I am and what I do</h2>
+                    <p className="text-sm xs:text-base">Hello there! I&apos;m Boluwatife David, a Full-Stack Engineer who took a detour from counting populations to coding them (well, sort of). My background in demography surprisingly prepped me for the analytical side of software development. Now, I wield React, Next.js, Node.js, and dabble in PHP and Python to build web apps that are both functional and, dare I say, a little bit fun. I started my journey as a Frontend Developer and, like a curious explorer, gathered enough skills to become a Fullstack Developer.</p>
+                    <br />
+
+                    <h2 className="text-lg sm:text-2xl font-bold text-[#B60071]">How I got here</h2>
+                    <p className="text-sm xs:text-base">My self-taught coding journey led me to land my first freelance gig in record time (11 months, to be exact!). That opened the door to an internship at Swap Space where I polished my skills to a fine shine. And then a contract role at Adroit Handyman Services, where I gave their website a much-needed facelift – we&apos;re talking a 30% boost in server response time and 20% more user engagement. Not too shabby, if I do say so myself.</p>
+                    <br />
+
+                    <h2 className="text-lg sm:text-2xl font-bold text-[#987D9A]">Where I&apos;m looking to go next</h2>
+                    <p className="text-sm xs:text-base">Now, I&apos;m absolutely thrilled about the advancements in AI and how it can enhance human work and productivity (without, you know, replacing us). Imagine a world where AI handles the boring bits, leaving us humans to do the creative, fun stuff. That&apos;s the future I&apos;m excited about! I&apos;m on the lookout for opportunities where I can blend my tech skills and AI enthusiasm to create something amazing. So, if you have a vision that needs a dash of innovation and a sprinkle of humor, let&apos;s connect and make magic happen!</p>
+                </article>
             </ContainerScroll>
         </div>
     );

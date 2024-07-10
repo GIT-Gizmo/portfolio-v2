@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
+
 import React, { useState } from "react";
 import {
   motion,
@@ -11,7 +11,6 @@ import { cn } from "@/utils/cn";
 import Link from "next/link";
 //import { ModeToggle } from "../ThemeButtonSwitcher";
 import { IconType } from "react-icons";
-import Image from "next/image";
 
 export const FloatingNav = ({
   navItems,
@@ -20,7 +19,7 @@ export const FloatingNav = ({
   navItems: {
     name: string;
     link: string;
-    icon?: string;
+    icon?: IconType;
   }[];
   className?: string;
 }) => {
@@ -72,15 +71,7 @@ export const FloatingNav = ({
               "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
             )}
           >
-            <div className="block xs:hidden">
-              <Image
-                src={navItem.icon}
-                alt={navItem.name}
-                width={24}
-                height={24}
-                style={{ display: 'block' }}
-              />
-            </div>
+            <span className="block xs:hidden w-5 h-5">{React.createElement(navItem.icon, { size: 24 })}</span>
             <span className="hidden !cursor-pointer xs:block text-xs sm:text-sm">{navItem.name}</span>
           </Link>
         ))}

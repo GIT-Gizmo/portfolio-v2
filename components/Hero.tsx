@@ -26,11 +26,9 @@ const Hero = () => {
 
       <div className="flex justify-center items-center relative my-12 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <a href="https://github.com/git-gizmo" target="_blank" className="tracking-widest text-xs text-center text-blue-100 max-w-80 w-full relative  mb-10 md:mb-20 lg:mb-0 inline-flex overflow-hidden rounded-full p-[1px] focus:outline-none">
-            <span className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 cursor-pointer inline-flex items-center justify-center gap-2">
-              <p>Dive into my code Jungle</p>
-              <Image src="/git.svg" alt="Github" width={16} height={16} />
-            </span>
+          <a href="https://github.com/git-gizmo" target="_blank" className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 cursor-pointer inline-flex justify-center items-center">
+            Dive into my code Jungle
+            <Image src="/git.svg" alt="Github" width={16} height={16} className="ml-1" />
           </a>
 
           <TextGenerateEffect

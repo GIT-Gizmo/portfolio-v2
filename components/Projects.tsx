@@ -53,10 +53,10 @@ const Projects = () => {
                     alt={title}
                     fill
                     style={{
-                      objectFit: 'contain',
+                      objectFit: 'cover',
                       objectPosition: 'center'
                     }}
-                    className="z-10"
+                    className="z-10 rounded-lg"
                   />
                 </div>
               </div>

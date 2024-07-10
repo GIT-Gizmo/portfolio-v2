@@ -156,7 +156,7 @@ export const projects = [
     title: "Honeybiis - A Restaurant Landing Page",
     description: "Landing my first freelance gig, I created a visually compelling landing page for an online restaurant. This project allowed me to collaborate with a client and translate their vision into a design that drives customer engagement.",
     img: "/projects-img/honeybiis.webp",
-    iconLists: ["/skills-icon/html5.svg", "/scss.svg"],
+    iconLists: ["/skills-icon/html5.svg", "/skills-icon/scss.svg"],
     link: "https://honeybiis.vercel.app/",
     code: 'https://github.com/GIT-Gizmo/honeybiis'
   },
@@ -165,7 +165,7 @@ export const projects = [
     title: "Glamour Threads - A Clothe Store Landing Page",
     description: "Demonstrating my newfound skills in SASS/SCSS, I created a stylish and functional landing page template tailored for online clothing stores. The project emphasizes clear product presentation and navigation to enhance the user experience.",
     img: "/projects-img/glamour-threads.webp",
-    iconLists: ["/skills-icon/html5.svg", "/scss.svg"],
+    iconLists: ["/skills-icon/html5.svg", "/skills-icon/scss.svg"],
     link: "https://glamour-threads.vercel.app/",
     code: 'https://github.com/GIT-Gizmo/glamour-threads'
   },

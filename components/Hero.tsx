@@ -41,7 +41,7 @@ const Hero = () => {
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Greetings, earthlings! I&apos;m Boluwatife, a code-juggling Full-stack Developer from Nigeria.</p>
 
-          <a href="https://davegizmo.tech/resume.pdf" target="_blank">
+          <a href="/resume.pdf" download target="_blank" rel="noopener noreferrer">
             <MagicButton
               title="Resume"
               icon={<FaRegFilePdf />}

@@ -46,7 +46,7 @@ const Projects = () => {
                   event.preventDefault();
                   window.open(link, "_blank");
                 }}>
-                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162D]">
+                <div className="relative w-full h-full overflow-hidden lg:rounded-xl bg-[#13162D]">
                   {/* <img src="/bg.png" alt="bg-img" /> */}
                   <Image
                     src={img}

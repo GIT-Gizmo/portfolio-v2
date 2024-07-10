@@ -15,7 +15,7 @@ const About = () => {
                     </>
                 }
             >
-                <article className="text-center">
+                <article className="flex flex-col gap-5">
                     <h2 className="text-lg sm:text-2xl font-bold text-purple">Who I am and what I do</h2>
                     <p className="text-sm xs:text-base">Hello there! I&apos;m Boluwatife David, a Full-Stack Engineer who took a detour from counting populations to coding them (well, sort of). My background in demography surprisingly prepped me for the analytical side of software development. Now, I wield React, Next.js, Node.js, and dabble in PHP and Python to build web apps that are both functional and, dare I say, a little bit fun. I started my journey as a Frontend Developer and, like a curious explorer, gathered enough skills to become a Fullstack Developer.</p>
                     <br />

@@ -56,7 +56,7 @@ const Projects = () => {
                       objectFit: 'cover',
                       objectPosition: 'center'
                     }}
-                    className="z-10 rounded-lg"
+                    className="z-10 rounded-md"
                   />
                 </div>
               </div>

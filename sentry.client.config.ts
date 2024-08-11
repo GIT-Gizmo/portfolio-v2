@@ -5,14 +5,13 @@
 import * as Sentry from "@sentry/nextjs";
 
 Sentry.init({
-  dsn: "https://6f1a61ba5a49e1989801c291b1899c13@o4507531299520512.ingest.us.sentry.io/4507531302535168",
+  dsn: "https://97492e1fc40982a2e272535137cdbb3f@o4507758829568000.ingest.us.sentry.io/4507758837432320",
 
   // Adjust this value in production, or use tracesSampler for greater control
   tracesSampleRate: 1,
 
   // Setting this option to true will print useful information to the console while you're setting up Sentry.
   debug: false,
-
   replaysOnErrorSampleRate: 1.0,
 
   // This sets the sample rate to be 10%. You may want this to be 100% while
@@ -25,10 +24,6 @@ Sentry.init({
       // Additional Replay configuration goes in here, for example:
       maskAllText: true,
       blockAllMedia: true,
-    }),
-    Sentry.feedbackIntegration({
-      // Additional SDK configuration goes in here, for example:
-      colorScheme: "system",
     }),
   ],
 });

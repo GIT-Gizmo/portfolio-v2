@@ -82,7 +82,7 @@ export const projects = [
   {
     id: 1,
     title: "DocThud - Healthcare management system",
-    description: "Prompt Synth is a full-stack web app that empowers users to share and explore powerful AI prompts.  Imagine a collaborative hub where you can discover new prompts for creative text generation, code completion, or image creation with artificial intelligence.",
+    description: "DocThud is a comprehensive healthcare management system designed to streamline the process of booking medical appointments. The web app allows patients to easily find and schedule appointments with preferred doctors. The system also includes an admin page to manage the schedules, making healthcare more accessible and organized.",
     img: "/projects-img/docthud.webp",
     iconLists: ["/next.svg", "/skills-icon/appwrite.svg", "/tail.svg", "/skills-icon/sentry.svg", "/skills-icon/twilio.svg"],
     link: "https://docthud.vercel.app",
@@ -359,6 +359,16 @@ export const skills = [
     id: 31,
     name: "Git",
     img: "/skills-icon/git.svg",
+  },
+  {
+    id: 32,
+    name: "Sentry",
+    img: "/skills-icon/sentry.svg",
+  },
+  {
+    id: 33,
+    name: "Twilio",
+    img: "/skills-icon/twilio.svg",
   },
 ]
 

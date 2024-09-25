@@ -1,9 +1,16 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
+import dynamic from 'next/dynamic';
 import { Spotlight } from "./ui/Spotlight";
-import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaRegFilePdf } from "react-icons/fa6";
 import Image from "next/image";
+import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
+
+const TextGenerateEffect = dynamic(
+  () => import('./ui/TextGenerateEffect').then((mod) => mod.TextGenerateEffect),
+  { ssr: false, },
+);
 
 const Hero = () => {
   return (
@@ -31,10 +38,12 @@ const Hero = () => {
             <Image src="/git.svg" alt="Github" width={16} height={16} className="ml-1" />
           </a>
 
-          <TextGenerateEffect
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Your Vision, My Keyboard, Let's Make Some Magic"
-          />
+          <Suspense>
+            <TextGenerateEffect
+              className="text-center text-[40px] md:text-5xl lg:text-6xl"
+              words="Your Vision, My Keyboard, Let's Make Some Magic"
+            />
+          </Suspense>
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Greetings, earthlings! I&apos;m Boluwatife, a code-juggling Full-stack Developer from Nigeria.</p>
 

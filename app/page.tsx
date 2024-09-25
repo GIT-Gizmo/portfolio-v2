@@ -11,7 +11,6 @@ import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
 import { SkillSection } from "@/components/SkillSection";
-import About from "@/components/About";
 
 export default function Home() {
   return (
@@ -22,7 +21,6 @@ export default function Home() {
         />
         <Hero />
         <Grid />
-        <About />
         <Projects />
         <Testimonials />
         <Experience />

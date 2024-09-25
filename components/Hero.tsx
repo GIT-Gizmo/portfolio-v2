@@ -4,8 +4,6 @@ import { Spotlight } from "./ui/Spotlight";
 import MagicButton from "./ui/MagicButton";
 import { FaRegFilePdf } from "react-icons/fa6";
 import Image from "next/image";
-import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
-import 'react-loading-skeleton/dist/skeleton.css'
 
 const TextGenerateEffect = dynamic(
   () => import('./ui/TextGenerateEffect').then((mod) => mod.TextGenerateEffect),

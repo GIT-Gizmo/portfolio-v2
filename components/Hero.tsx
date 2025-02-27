@@ -43,7 +43,7 @@ const Hero = () => {
             />
           </Suspense>
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Hello, my name is Boluwatife, a Full-stack Developer from Nigeria focused on building scalable and performant web solutions.</p>
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Hi, my name is Boluwatife, a Full-stack Developer from Nigeria focused on building scalable and performant web solutions.</p>
 
           <a href="/resume.pdf" download target="_blank" rel="noopener noreferrer">
             <MagicButton

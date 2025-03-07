@@ -454,19 +454,19 @@ export const approach = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/social-icons/git.svg",
     name: "github",
     link: "https://github.com/GIT-Gizmo"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/social-icons/twitter.svg",
     name: "twitter",
     link: "https://twitter.com/dave_gizmo"
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/social-icons/linkedin.svg",
     name: "linkedin",
     link: "https://linkedin.com/in/boluwatife-david"
   },

@@ -33,7 +33,7 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <a href="https://github.com/git-gizmo" target="_blank" className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 cursor-pointer inline-flex justify-center items-center">
             Dive into my code Jungle
-            <Image src="/git.svg" alt="Github" width={16} height={16} className="ml-1" />
+            <Image src="/skills-icon/git.svg" alt="Github" width={16} height={16} className="ml-1" />
           </a>
 
           <Suspense>

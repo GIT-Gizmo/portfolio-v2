@@ -454,7 +454,7 @@ export const approach = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/social-icons/git.svg",
+    img: "/social-icons/github.svg",
     name: "github",
     link: "https://github.com/GIT-Gizmo"
   },

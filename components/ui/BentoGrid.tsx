@@ -128,7 +128,10 @@ export const BentoGridItem = ({
           {id === 2 && <GlobeView />}
 
           {id === 3 && (
-            <AnimatedSkills />
+            <div className="relative">
+              <img src={img} alt="grid bg" className="absolute bg-no-repeat" />
+              <AnimatedSkills />
+            </div>
           )}
 
           {id === 6 && (

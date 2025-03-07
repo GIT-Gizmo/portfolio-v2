@@ -42,7 +42,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
-    img: "",
+    img: "/grid.svg",
     spareImg: "",
   },
   {
@@ -84,7 +84,7 @@ export const projects = [
     title: "DocThud - Healthcare management system",
     description: "DocThud is a comprehensive healthcare management system designed to streamline the process of booking medical appointments. The web app allows patients to easily find and schedule appointments with preferred doctors. The system also includes an admin page to manage the schedules, making healthcare more accessible and organized.",
     img: "/projects-img/docthud.webp",
-    iconLists: ["/next.svg", "/skills-icon/appwrite.svg", "/tail.svg", "/skills-icon/sentry.svg", "/skills-icon/twilio.svg"],
+    iconLists: ["/skills-icon/next.svg", "/skills-icon/appwrite.svg", "/skills-icon/tailwind.svg", "/skills-icon/sentry.svg", "/skills-icon/twilio.svg"],
     link: "https://docthud.vercel.app",
     code: 'https://github.com/GIT-Gizmo/docthud'
   },
@@ -93,7 +93,7 @@ export const projects = [
     title: "Elaff Homes - Real estate & property management website",
     description: "Elaff Homes is a professional real estate and property management company that offers a wide range of services, including property listings, real estate development, property management and construction services. The website is designed to be user-friendly and easy to navigate, making it easy for users to find the information they need.",
     img: "/projects-img/elaffhomes.webp",
-    iconLists: ["/next.svg", "/skills-icon/appwrite.svg", "/tail.svg", "/fm.svg", "/skills-icon/shadcn.svg"],
+    iconLists: ["/skills-icon/next.svg", "/skills-icon/appwrite.svg", "/skills-icon/tailwind.svg", "/skills-icon/framer-motion.svg", "/skills-icon/shadcn.svg"],
     link: "https://elaffhomes.com",
     code: 'https://github.com/GIT-Gizmo'
   },
@@ -102,7 +102,7 @@ export const projects = [
     title: "PromptSynth - AI-powered Promts",
     description: "Prompt Synth is a full-stack web app that empowers users to share and explore powerful AI prompts.  Imagine a collaborative hub where you can discover new prompts for creative text generation, code completion, or image creation with artificial intelligence.",
     img: "/projects-img/promptsynth.webp",
-    iconLists: ["/next.svg", "/tail.svg", "/skills-icon/mongo.svg"],
+    iconLists: ["/skills-icon/next.svg", "/skills-icon/tailwind.svg", "/skills-icon/mongodb.svg"],
     link: "https://promptsynth.vercel.app",
     code: 'https://github.com/GIT-Gizmo/promptsynth'
   },
@@ -111,7 +111,7 @@ export const projects = [
     title: "AI Stitches - 3D Shirt Editing App",
     description: "Design your dream T-shirt with AI Stitches! This web app lets you unleash your creativity with a fully customizable 3D T-shirt model. Upload your own logos and textures, or get inspired with AI-generated designs.",
     img: "/projects-img/ai-stitches.webp",
-    iconLists: ["/re.svg", "/tail.svg", "/three.svg", "/skills-icon/bard.svg", "/skills-icon/vite.svg"],
+    iconLists: ["/skills-icon/react.svg", "/skills-icon/tailwind.svg", "/skills-icon/three.svg", "/skills-icon/gemini.svg", "/skills-icon/vite.svg"],
     link: "https://ai-stitches.vercel.app",
     code: 'https://github.com/GIT-Gizmo/ai-stitches'
   },
@@ -120,7 +120,7 @@ export const projects = [
     title: "Adroit Handyman - Handyman Services Company",
     description: "A complete website revamp for Adroit Handyman Services, leveraging Next.js and its Server-Side Rendering (SSR) capabilities for a significant 30% reduction in server response times with increased load time speed, resulting in a noticeable increase in user engagement and sales for the company.",
     img: "/projects-img/adroit.webp",
-    iconLists: ["/next.svg", "/tail.svg", "/skills-icon/express.svg", "/skills-icon/node.svg", "/fm.svg"],
+    iconLists: ["/skills-icon/next.svg", "/skills-icon/tailwind.svg", "/skills-icon/express.svg", "/skills-icon/nodejs.svg", "/skills-icon/framer-motion.svg"],
     link: "https://www.adroithandymanservices.com",
     code: 'https://github.com/git-gizmo'
   },
@@ -129,7 +129,7 @@ export const projects = [
     title: "Anime Crypt - Anime Library",
     description: "Deepened my understanding of server-side rendering with Next.js by building a dynamic anime list application. Explored the power of TypeScript for type safety and Framer Motion for smooth animations.",
     img: "/projects-img/anime_crypt.webp",
-    iconLists: ["/next.svg", "/tail.svg", "/fm.svg", "/ts.svg"],
+    iconLists: ["/skills-icon/next.svg", "/skills-icon/tailwind.svg", "/skills-icon/framer-motion.svg", "/skills-icon/ts.svg"],
     link: "https://anime-crypt.vercel.app",
     code: 'https://github.com/GIT-Gizmo/anime-crypt'
   },
@@ -138,7 +138,7 @@ export const projects = [
     title: "Home Seekr - A Real Estate Website",
     description: "This project served as a learning experience for building CRUD web applications with user sign-in & sign-up authentication. Developed with React and Firebase, it showcases my ability to create interactive data-driven applications with secure user access.",
     img: "/projects-img/home-seekr.webp",
-    iconLists: ["/re.svg", "/tail.svg", "/skills-icon/firebase.svg", "/skills-icon/vite.svg"],
+    iconLists: ["/skills-icon/react.svg", "/skills-icon/tailwind.svg", "/skills-icon/firebase.svg", "/skills-icon/vite.svg"],
     link: "https://home-seekr.vercel.app/sign-in",
     code: 'https://github.com/GIT-Gizmo/home-seekr'
   },
@@ -147,7 +147,7 @@ export const projects = [
     title: "Wings Trip - A Flight Booking Agency Landing Page",
     description: "I explored building interactive elements using React to create a captivating landing page. The project served as a playground to solidify my understanding of Sass for styling and component management.",
     img: "/projects-img/wingstrip.webp",
-    iconLists: ["/re.svg", "/skills-icon/scss.svg", "/skills-icon/vite.svg"],
+    iconLists: ["/skills-icon/react.svg", "/skills-icon/scss.svg", "/skills-icon/vite.svg"],
     link: "https://wingstrip.vercel.app",
     code: 'https://github.com/GIT-Gizmo/Wings-Trip'
   },
@@ -165,7 +165,7 @@ export const projects = [
     title: "Little Lemon - A Restaurant Website",
     description: "This capstone project for the META Frontend Developer Specialization (Coursera) challenged me to build a full-fledged restaurant web app where customers can reserve tables, showcasing my skills in React, user interface design, and front-end development best practices.",
     img: "/projects-img/little-lemon.webp",
-    iconLists: ["/re.svg", "/tail.svg"],
+    iconLists: ["/skills-icon/react.svg", "/skills-icon/tailwind.svg"],
     link: "https://little-lemon-portfolio.vercel.app/",
     code: 'https://github.com/GIT-Gizmo/little-lemon-portfolio'
   },
@@ -192,24 +192,31 @@ export const projects = [
 export const testimonials = [
   {
     quote:
+      "Working with Boluwatife on our advanced property management website was a game-changer. His expertise in web development and attention to detail resulted in a seamless, user-friendly platform that has significantly improved our operations. Boluwatife's dedication and problem-solving skills are truly commendable. I highly recommend him for any web development project.",
+    name: "Gbolade Emmanuel",
+    title: "CEO of Elaff Homes",
+    profileImg: "/emmanuel.webp",
+  },
+  {
+    quote:
       "I had the pleasure to work with Boluwatife as he led our website revamp with exceptional skill. His high-quality work, ability to solve complex issues, and collaborative spirit were instrumental to the project's success. A talented developer and team player, David creates a positive work environment. I highly recommend him and would gladly work with him again.",
     name: "Timileyin Ogunleye",
     title: "CEO of Adroit Handyman Services",
-    profileImg: "/timi.webp",
+    profileImg: "/clients/timi.webp",
   },
   {
     quote:
       "Boluwatife David is an outstanding developer who consistently goes above and beyond to achieve excellent results. He is not only a talented professional who loves to learn new things, he is also someone who knows a little about a lot of things and is ready to share.",
     name: "Omotoyinbo Oluwadunsin",
     title: "UI/UX Developer",
-    profileImg: "/dunsin.webp",
+    profileImg: "/clients/dunsin.webp",
   },
   {
     quote:
       "Boluwatife David is an exceptional React front-end developer with impressive skills in HTML, CSS, and JavaScript. He creates visually appealing, user-friendly interfaces and stays current with industry trends. His attention to detail, dedication, and problem-solving abilities make him an invaluable asset to any development team.",
     name: "Mr. Oluwaseun Matthew",
     title: "Business Automation Expert",
-    profileImg: "/mr-seun.webp",
+    profileImg: "/clients/mr-seun.webp",
   },
 ];
 
@@ -222,7 +229,7 @@ export const skills = [
   {
     id: 2,
     name: "TypeScript",
-    img: "/ts.svg",
+    img: "/skills-icon/ts.svg",
   },
   {
     id: 3,
@@ -237,17 +244,17 @@ export const skills = [
   {
     id: 5,
     name: "Node.js",
-    img: "/skills-icon/node.svg",
+    img: "/skills-icon/nodejs.svg",
   },
   {
     id: 6,
     name: "ReactJS",
-    img: "/re.svg",
+    img: "/skills-icon/react.svg",
   },
   {
     id: 7,
     name: "NextJS",
-    img: "/next.svg",
+    img: "/skills-icon/next.svg",
   },
   {
     id: 8,
@@ -257,27 +264,27 @@ export const skills = [
   {
     id: 9,
     name: "MongoDB",
-    img: "/skills-icon/mongo.svg",
+    img: "/skills-icon/mongodb.svg",
   },
   {
     id: 10,
     name: "React Native",
-    img: "/re.svg",
+    img: "/skills-icon/react.svg",
   },
   {
     id: 11,
     name: "Tailwind",
-    img: "/tail.svg",
+    img: "/skills-icon/tailwind.svg",
   },
   {
     id: 12,
     name: "ThreeJS",
-    img: "/three.svg",
+    img: "/skills-icon/three.svg",
   },
   {
     id: 13,
     name: "Framer Motion",
-    img: "/fm.svg",
+    img: "/skills-icon/framer-motion.svg",
   },
   {
     id: 14,
@@ -292,7 +299,7 @@ export const skills = [
   {
     id: 16,
     name: "Docker",
-    img: "/dock.svg",
+    img: "/skills-icon/docker.svg",
   },
   {
     id: 17,
@@ -317,12 +324,12 @@ export const skills = [
   {
     id: 21,
     name: "Appwrite",
-    img: "/app.svg",
+    img: "/skills-icon/appwrite.svg",
   },
   {
     id: 22,
     name: "Google Analytics",
-    img: "/skills-icon/analytics.svg",
+    img: "/skills-icon/google-analytics.svg",
   },
   {
     id: 23,
@@ -352,7 +359,7 @@ export const skills = [
   {
     id: 28,
     name: "Hostinger",
-    img: "/host.svg",
+    img: "/skills-icon/hostinger.svg",
   },
   {
     id: 29,

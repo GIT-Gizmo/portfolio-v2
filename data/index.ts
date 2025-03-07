@@ -22,7 +22,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/self/self.webp",
     spareImg: "",
   },
   {
@@ -81,15 +81,6 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "DocThud - Healthcare management system",
-    description: "DocThud is a comprehensive healthcare management system designed to streamline the process of booking medical appointments. The web app allows patients to easily find and schedule appointments with preferred doctors. The system also includes an admin page to manage the schedules, making healthcare more accessible and organized.",
-    img: "/projects-img/docthud.webp",
-    iconLists: ["/skills-icon/next.svg", "/skills-icon/appwrite.svg", "/skills-icon/tailwind.svg", "/skills-icon/sentry.svg", "/skills-icon/twilio.svg"],
-    link: "https://docthud.vercel.app",
-    code: 'https://github.com/GIT-Gizmo/docthud'
-  },
-  {
-    id: 2,
     title: "Elaff Homes - Real estate & property management website",
     description: "Elaff Homes is a professional real estate and property management company that offers a wide range of services, including property listings, real estate development, property management and construction services. The website is designed to be user-friendly and easy to navigate, making it easy for users to find the information they need.",
     img: "/projects-img/elaffhomes.webp",
@@ -98,13 +89,22 @@ export const projects = [
     code: 'https://github.com/GIT-Gizmo'
   },
   {
+    id: 2,
+    title: "DocThud - Healthcare management system",
+    description: "DocThud is a comprehensive healthcare management system designed to streamline the process of booking medical appointments. The web app allows patients to easily find and schedule appointments with preferred doctors. The system also includes an admin page to manage the schedules, making healthcare more accessible and organized.",
+    img: "/projects-img/docthud.webp",
+    iconLists: ["/skills-icon/next.svg", "/skills-icon/appwrite.svg", "/skills-icon/tailwind.svg", "/skills-icon/sentry.svg", "/skills-icon/twilio.svg"],
+    link: "https://docthud.vercel.app",
+    code: 'https://github.com/GIT-Gizmo/docthud'
+  },
+  {
     id: 3,
-    title: "PromptSynth - AI-powered Promts",
-    description: "Prompt Synth is a full-stack web app that empowers users to share and explore powerful AI prompts.  Imagine a collaborative hub where you can discover new prompts for creative text generation, code completion, or image creation with artificial intelligence.",
-    img: "/projects-img/promptsynth.webp",
-    iconLists: ["/skills-icon/next.svg", "/skills-icon/tailwind.svg", "/skills-icon/mongodb.svg"],
-    link: "https://promptsynth.vercel.app",
-    code: 'https://github.com/GIT-Gizmo/promptsynth'
+    title: "Adroit Handyman - Handyman Services Company",
+    description: "A complete website revamp for Adroit Handyman Services, leveraging Next.js and its Server-Side Rendering (SSR) capabilities for a significant 30% reduction in server response times with increased load time speed, resulting in a noticeable increase in user engagement and sales for the company.",
+    img: "/projects-img/adroit.webp",
+    iconLists: ["/skills-icon/next.svg", "/skills-icon/tailwind.svg", "/skills-icon/express.svg", "/skills-icon/nodejs.svg", "/skills-icon/framer-motion.svg"],
+    link: "https://www.adroithandymanservices.com",
+    code: 'https://github.com/git-gizmo'
   },
   {
     id: 4,
@@ -117,12 +117,12 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Adroit Handyman - Handyman Services Company",
-    description: "A complete website revamp for Adroit Handyman Services, leveraging Next.js and its Server-Side Rendering (SSR) capabilities for a significant 30% reduction in server response times with increased load time speed, resulting in a noticeable increase in user engagement and sales for the company.",
-    img: "/projects-img/adroit.webp",
-    iconLists: ["/skills-icon/next.svg", "/skills-icon/tailwind.svg", "/skills-icon/express.svg", "/skills-icon/nodejs.svg", "/skills-icon/framer-motion.svg"],
-    link: "https://www.adroithandymanservices.com",
-    code: 'https://github.com/git-gizmo'
+    title: "PromptSynth - AI-powered Promts",
+    description: "Prompt Synth is a full-stack web app that empowers users to share and explore powerful AI prompts.  Imagine a collaborative hub where you can discover new prompts for creative text generation, code completion, or image creation with artificial intelligence.",
+    img: "/projects-img/promptsynth.webp",
+    iconLists: ["/skills-icon/next.svg", "/skills-icon/tailwind.svg", "/skills-icon/mongodb.svg"],
+    link: "https://promptsynth.vercel.app",
+    code: 'https://github.com/GIT-Gizmo/promptsynth'
   },
   {
     id: 6,

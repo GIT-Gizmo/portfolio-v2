@@ -195,7 +195,7 @@ export const testimonials = [
       "Working with Boluwatife on our advanced property management website was a game-changer. His expertise in web development and attention to detail resulted in a seamless, user-friendly platform that has significantly improved our operations. Boluwatife's dedication and problem-solving skills are truly commendable. I highly recommend him for any web development project.",
     name: "Gbolade Emmanuel",
     title: "CEO of Elaff Homes",
-    profileImg: "/emmanuel.webp",
+    profileImg: "/clients/emmanuel.webp",
   },
   {
     quote:

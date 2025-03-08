@@ -6,7 +6,7 @@ import Grid from "@/components/Grid";
 import Projects from "@/components/Projects";
 import { navItems } from "@/data";
 import Testimonials from "@/components/Testimonials";
-import Experience from "@/components/Experience";
+import { Experience } from "@/components/Experience";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
 import { SkillSection } from "@/components/SkillSection";

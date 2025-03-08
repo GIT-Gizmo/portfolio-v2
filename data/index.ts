@@ -61,9 +61,9 @@ export const gridItems = [
     title: "Currently building Crediris, a nextgen digital banking system",
     description: "Behind The Scenes",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    imgClassName: "absolute right-0 bottom-0 md:-bottom-20 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    // img: "/b5.svg",
     spareImg: "/grid.svg",
   },
   {
@@ -454,7 +454,7 @@ export const approach = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/social-icons/github.svg",
+    img: "/skills-icon/github.svg",
     name: "github",
     link: "https://github.com/GIT-Gizmo"
   },

@@ -10,6 +10,7 @@ import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 import dynamic from 'next/dynamic';
 import { AnimatedSkills } from "@/components/AnimatedSkills";
+import { SkillCloud } from "@/components/SkillCloud";
 
 const Lottie = dynamic(() => import('react-lottie'), { ssr: false });
 
@@ -87,12 +88,17 @@ export const BentoGridItem = ({
     >
       <div className={`${id === 6 && 'flex justify-center'} h-full`}>
         <div className="w-full h-full absolute">
-          {img && (
+          {img && id !== 5 && (
             <img
               src={img}
               alt={img}
               className={cn(imgClassName, "object-cover object-center")}
             />
+          )}
+          {id === 5 && (
+            <div className={cn(imgClassName, "w-full h-full")}>
+              <SkillCloud />
+            </div>
           )}
         </div>
         <div

@@ -53,21 +53,22 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const [copied, setCopied] = useState(false);
-  const [key, setKey] = useState(0);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   const handleCopy = () => {
     navigator.clipboard.writeText('davidbolu12@gmail.com');
-    setCopied(true);
-    setKey(prevKey => prevKey + 1);
 
-    setTimeout(() => {
-      setCopied(false);
-    }, 3000);
+    // Start animation immediately and set copied state
+    setIsPlaying(true);
+    setCopied(true);
+
+    // Don't reset copied state with a timer - let the animation completion handle it
+    // Remove the setTimeout that was resetting copied state
   };
 
   const defaultOptions = {
     loop: false,
-    autoplay: true,
+    autoplay: false,
     animationData: animationData,
     rendererSettings: {
       preserveAspectRatio: 'xMidYMid slice'
@@ -144,16 +145,19 @@ export const BentoGridItem = ({
             <div className="relative mt-5">
               <div className={`absolute -bottom-5 right-0`}>
                 <Lottie
-                  key={key}
                   options={defaultOptions}
                   eventListeners={[
                     {
                       eventName: 'complete',
                       callback: () => {
+                        // Reset both states after animation completes
                         setCopied(false);
+                        setIsPlaying(false);
                       },
                     },
                   ]}
+                  isStopped={!isPlaying}
+                  isPaused={false}
                 />
               </div>
 

@@ -81,6 +81,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    name: "Elaff Homes",
     title: "Elaff Homes - Real estate & property management website",
     description: "Elaff Homes is a professional real estate and property management company that offers a wide range of services, including property listings, real estate development, property management and construction services. The website is designed to be user-friendly and easy to navigate, making it easy for users to find the information they need.",
     img: "/projects-img/elaffhomes.webp",
@@ -90,6 +91,7 @@ export const projects = [
   },
   {
     id: 2,
+    name: "DocThud",
     title: "DocThud - Healthcare management system",
     description: "DocThud is a comprehensive healthcare management system designed to streamline the process of booking medical appointments. The web app allows patients to easily find and schedule appointments with preferred doctors. The system also includes an admin page to manage the schedules, making healthcare more accessible and organized.",
     img: "/projects-img/docthud.webp",
@@ -99,6 +101,7 @@ export const projects = [
   },
   {
     id: 3,
+    name: "Adroit Handyman",
     title: "Adroit Handyman - Handyman Services Company",
     description: "A complete website revamp for Adroit Handyman Services, leveraging Next.js and its Server-Side Rendering (SSR) capabilities for a significant 30% reduction in server response times with increased load time speed, resulting in a noticeable increase in user engagement and sales for the company.",
     img: "/projects-img/adroit.webp",
@@ -108,6 +111,7 @@ export const projects = [
   },
   {
     id: 4,
+    name: "AI Stitches",
     title: "AI Stitches - 3D Shirt Editing App",
     description: "Design your dream T-shirt with AI Stitches! This web app lets you unleash your creativity with a fully customizable 3D T-shirt model. Upload your own logos and textures, or get inspired with AI-generated designs.",
     img: "/projects-img/ai-stitches.webp",
@@ -117,7 +121,8 @@ export const projects = [
   },
   {
     id: 5,
-    title: "PromptSynth - AI-powered Promts",
+    name: "Prompt Synth",
+    title: "Prompt Synth - AI-powered Promts",
     description: "Prompt Synth is a full-stack web app that empowers users to share and explore powerful AI prompts.  Imagine a collaborative hub where you can discover new prompts for creative text generation, code completion, or image creation with artificial intelligence.",
     img: "/projects-img/promptsynth.webp",
     iconLists: ["/skills-icon/next.svg", "/skills-icon/tailwind.svg", "/skills-icon/mongodb.svg"],
@@ -126,6 +131,7 @@ export const projects = [
   },
   {
     id: 6,
+    name: "Anime Crypt",
     title: "Anime Crypt - Anime Library",
     description: "Deepened my understanding of server-side rendering with Next.js by building a dynamic anime list application. Explored the power of TypeScript for type safety and Framer Motion for smooth animations.",
     img: "/projects-img/anime_crypt.webp",
@@ -135,6 +141,7 @@ export const projects = [
   },
   {
     id: 7,
+    name: "Home Seekr",
     title: "Home Seekr - A Real Estate Website",
     description: "This project served as a learning experience for building CRUD web applications with user sign-in & sign-up authentication. Developed with React and Firebase, it showcases my ability to create interactive data-driven applications with secure user access.",
     img: "/projects-img/home-seekr.webp",
@@ -144,6 +151,7 @@ export const projects = [
   },
   {
     id: 8,
+    name: "Wings Trip",
     title: "Wings Trip - A Flight Booking Agency Landing Page",
     description: "I explored building interactive elements using React to create a captivating landing page. The project served as a playground to solidify my understanding of Sass for styling and component management.",
     img: "/projects-img/wingstrip.webp",
@@ -153,7 +161,8 @@ export const projects = [
   },
   {
     id: 9,
-    title: "Ehazypay - A Cryptocurrency Vendor Landing Page",
+    name: "EhaZyPay",
+    title: "EhazyPay - A Cryptocurrency Vendor Landing Page",
     description: "This contract project involved building and managing a user-friendly single-page website for a trusted cryptocurrency vendor. The website simplifies the process for customers to directly buy and sell cryptocurrencies, enhancing their experience and accessibility.",
     img: "/projects-img/ehazypay.webp",
     iconLists: ["/skills-icon/html5.svg", "/skills-icon/css.svg", "/skills-icon/jquery.svg"],
@@ -162,6 +171,7 @@ export const projects = [
   },
   {
     id: 10,
+    name: "Little Lemon",
     title: "Little Lemon - A Restaurant Website",
     description: "This capstone project for the META Frontend Developer Specialization (Coursera) challenged me to build a full-fledged restaurant web app where customers can reserve tables, showcasing my skills in React, user interface design, and front-end development best practices.",
     img: "/projects-img/little-lemon.webp",
@@ -171,6 +181,7 @@ export const projects = [
   },
   {
     id: 11,
+    name: "Honeybiis",
     title: "Honeybiis - A Restaurant Landing Page",
     description: "Landing my first freelance gig, I created a visually compelling landing page for an online restaurant. This project allowed me to collaborate with a client and translate their vision into a design that drives customer engagement.",
     img: "/projects-img/honeybiis.webp",
@@ -180,6 +191,7 @@ export const projects = [
   },
   {
     id: 12,
+    name: "Glamour Threads",
     title: "Glamour Threads - A Clothe Store Landing Page",
     description: "Demonstrating my newfound skills in SASS/SCSS, I created a stylish and functional landing page template tailored for online clothing stores. The project emphasizes clear product presentation and navigation to enhance the user experience.",
     img: "/projects-img/glamour-threads.webp",

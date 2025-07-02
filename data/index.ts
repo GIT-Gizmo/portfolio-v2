@@ -81,6 +81,16 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    name: "Virexium",
+    title: "Virexium - Digital Marketer Portfolio Website",
+    description: "A premium, top-tier portfolio website crafted for a digital marketing company to showcase their expertise and attract high-value clients. The site features sophisticated animations, modern design principles, and seamless user experience that reflects the company's professional brand. Built with cutting-edge technologies including Next.js, Framer Motion, and GSAP to deliver exceptional performance and visual appeal that sets them apart in the competitive digital marketing landscape.",
+    img: "/projects-img/virexium.webp",
+    iconLists: ["/skills-icon/next.svg", "/skills-icon/framer-motion.svg", "/skills-icon/tailwind.svg", "/skills-icon/gsap.svg"],
+    link: "https://virexium.vercel.app",
+    code: 'https://github.com/GIT-Gizmo'
+  },
+  {
+    id: 2,
     name: "Quinox",
     title: "Quinox - All-in-one AI SaaS",
     description: "A straightforward platform that puts several AI tools into one spot. Users can easily chat with an AI, create images, generate video clips, make audio (like voiceovers), and even get help writing code. The cool part is it uses different AI models, so you get good results whether you're making something creative or technical. It's all about making AI easy and useful for various tasks without needing multiple apps.",
@@ -90,7 +100,7 @@ export const projects = [
     code: 'https://github.com/GIT-Gizmo'
   },
   {
-    id: 2,
+    id: 3,
     name: "Elaff Homes",
     title: "Elaff Homes - Real estate & property management website",
     description: "Elaff Homes is a professional real estate and property management company that offers a wide range of services, including property listings, real estate development, property management and construction services. The website is designed to be user-friendly and easy to navigate, making it easy for users to find the information they need.",
@@ -100,7 +110,7 @@ export const projects = [
     code: 'https://github.com/GIT-Gizmo'
   },
   {
-    id: 3,
+    id: 4,
     name: "DocThud",
     title: "DocThud - Healthcare management system",
     description: "DocThud is a comprehensive healthcare management system designed to streamline the process of booking medical appointments. The web app allows patients to easily find and schedule appointments with preferred doctors. The system also includes an admin page to manage the schedules, making healthcare more accessible and organized.",
@@ -110,7 +120,7 @@ export const projects = [
     code: 'https://github.com/GIT-Gizmo/docthud'
   },
   {
-    id: 4,
+    id: 5,
     name: "Adroit Handyman",
     title: "Adroit Handyman - Handyman Services Company",
     description: "A complete website revamp for Adroit Handyman Services, leveraging Next.js and its Server-Side Rendering (SSR) capabilities for a significant 30% reduction in server response times with increased load time speed, resulting in a noticeable increase in user engagement and sales for the company.",
@@ -120,7 +130,7 @@ export const projects = [
     code: 'https://github.com/git-gizmo'
   },
   {
-    id: 5,
+    id: 6,
     name: "AI Stitches",
     title: "AI Stitches - 3D Shirt Editing App",
     description: "Design your dream T-shirt with AI Stitches! This web app lets you unleash your creativity with a fully customizable 3D T-shirt model. Upload your own logos and textures, or get inspired with AI-generated designs.",
@@ -130,7 +140,7 @@ export const projects = [
     code: 'https://github.com/GIT-Gizmo/ai-stitches'
   },
   {
-    id: 6,
+    id: 7,
     name: "Prompt Synth",
     title: "Prompt Synth - AI-powered Promts",
     description: "Prompt Synth is a full-stack web app that empowers users to share and explore powerful AI prompts.  Imagine a collaborative hub where you can discover new prompts for creative text generation, code completion, or image creation with artificial intelligence.",
@@ -140,7 +150,7 @@ export const projects = [
     code: 'https://github.com/GIT-Gizmo/promptsynth'
   },
   {
-    id: 7,
+    id: 8,
     name: "Anime Crypt",
     title: "Anime Crypt - Anime Library",
     description: "Deepened my understanding of server-side rendering with Next.js by building a dynamic anime list application. Explored the power of TypeScript for type safety and Framer Motion for smooth animations.",
@@ -150,7 +160,7 @@ export const projects = [
     code: 'https://github.com/GIT-Gizmo/anime-crypt'
   },
   {
-    id: 8,
+    id: 9,
     name: "Home Seekr",
     title: "Home Seekr - A Real Estate Website",
     description: "This project served as a learning experience for building CRUD web applications with user sign-in & sign-up authentication. Developed with React and Firebase, it showcases my ability to create interactive data-driven applications with secure user access.",
@@ -160,7 +170,7 @@ export const projects = [
     code: 'https://github.com/GIT-Gizmo/home-seekr'
   },
   {
-    id: 9,
+    id: 10,
     name: "Wings Trip",
     title: "Wings Trip - A Flight Booking Agency Landing Page",
     description: "I explored building interactive elements using React to create a captivating landing page. The project served as a playground to solidify my understanding of Sass for styling and component management.",
@@ -170,7 +180,7 @@ export const projects = [
     code: 'https://github.com/GIT-Gizmo/Wings-Trip'
   },
   {
-    id: 10,
+    id: 11,
     name: "EhaZyPay",
     title: "EhazyPay - A Cryptocurrency Vendor Landing Page",
     description: "This contract project involved building and managing a user-friendly single-page website for a trusted cryptocurrency vendor. The website simplifies the process for customers to directly buy and sell cryptocurrencies, enhancing their experience and accessibility.",
@@ -180,7 +190,7 @@ export const projects = [
     code: 'https://github.com/GIT-Gizmo/ehazypay'
   },
   {
-    id: 11,
+    id: 12,
     name: "Little Lemon",
     title: "Little Lemon - A Restaurant Website",
     description: "This capstone project for the META Frontend Developer Specialization (Coursera) challenged me to build a full-fledged restaurant web app where customers can reserve tables, showcasing my skills in React, user interface design, and front-end development best practices.",
@@ -190,7 +200,7 @@ export const projects = [
     code: 'https://github.com/GIT-Gizmo/little-lemon-portfolio'
   },
   {
-    id: 12,
+    id: 13,
     name: "Honeybiis",
     title: "Honeybiis - A Restaurant Landing Page",
     description: "Landing my first freelance gig, I created a visually compelling landing page for an online restaurant. This project allowed me to collaborate with a client and translate their vision into a design that drives customer engagement.",
@@ -200,7 +210,7 @@ export const projects = [
     code: 'https://github.com/GIT-Gizmo/honeybiis'
   },
   {
-    id: 13,
+    id: 14,
     name: "Glamour Threads",
     title: "Glamour Threads - A Clothe Store Landing Page",
     description: "Demonstrating my newfound skills in SASS/SCSS, I created a stylish and functional landing page template tailored for online clothing stores. The project emphasizes clear product presentation and navigation to enhance the user experience.",
@@ -407,6 +417,11 @@ export const skills = [
     id: 33,
     name: "Twilio",
     img: "/skills-icon/twilio.svg",
+  },
+  {
+    id: 34,
+    name: "GSAP",
+    img: "/skills-icon/gsap.svg",
   },
 ]
 
